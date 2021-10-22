@@ -1,9 +1,8 @@
 package ru.ibs.project.employees;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import org.w3c.dom.ls.LSOutput;
+import ru.ibs.project.info.Manager;
 
-public class TeamLeader extends Employees implements Manager{
+public class TeamLeader extends Employees implements Manager {
     private Integer numberOfSubordinates;
     private String nameTeamLeader;
     private Integer ageTeamLeader;
@@ -23,6 +22,8 @@ public class TeamLeader extends Employees implements Manager{
         System.out.println((experience+numberOfCompletedProjects)/2);
         return null;
     }
+
+
 
 
     @Override

@@ -37,16 +37,19 @@ public class Main {
         setEmployees.add(developer);
         setEmployees.add(intern);
         setEmployees.add(teamLeader);
-        collectMethod(setEmployees);
+      //  collectMethod(setEmployees);
 
     }
     //Вторая часть второго упражнения
     public static void collectMethod(Set<Employees> employeesSet){
-
+        int i = 0;
         List<Object> arrayListEmployees = new ArrayList<>();
         arrayListEmployees.add(employeesSet);
+        for(Object obj: arrayListEmployees){
+            i++;
+            System.out.println(arrayListEmployees.get(i));
+        }
 
-        arrayListEmployees.listIterator();
 
     }
 }
