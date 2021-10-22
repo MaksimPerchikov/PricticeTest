@@ -1,6 +1,7 @@
 package ru.ibs.project.employees;
 
 public class Developer extends Employees{
+
     private String nameDeveloper;
     private String directionOfDevelop;
     private Integer ageDeveloper;

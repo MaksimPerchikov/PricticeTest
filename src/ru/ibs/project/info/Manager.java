@@ -1,4 +1,4 @@
-package ru.ibs.project.employees;
+package ru.ibs.project.info;
 
 public interface Manager {
     public void methodFromInterfaceManager();

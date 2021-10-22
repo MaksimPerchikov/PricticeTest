@@ -14,14 +14,12 @@ public class Main {
         teamLeader1.levelOfProfessionalism(4,2);
         System.out.println("==========================");
 
-
         Intern intern1 = new Intern();
         intern1.methodFromAbstractClassEmployeesTwo();
         intern1.methodFromAbstractClassEmployees();
         //вызов метода класса Intern
         intern1.learningLines("Backand");
         System.out.println("==========================");
-
 
         Developer developer1 = new Developer("Backend");
         developer1.methodFromAbstractClassEmployees();
@@ -30,23 +28,25 @@ public class Main {
         developer1.durationOfLunch();
         System.out.println("==========================");
 
-
         //вторая часть задания.Упражнения с коллекциями.
         Developer developer = new Developer("Max",22,"developer.Backand.");
         Intern intern = new Intern("Artem",24,"Frontend");
         TeamLeader teamLeader = new TeamLeader("Katy",30,3);
 
-
-        Set<Object> setEmployees = new HashSet<>();
+        Set<Employees> setEmployees = new HashSet<>();
         setEmployees.add(developer);
         setEmployees.add(intern);
         setEmployees.add(teamLeader);
+        collectMethod(setEmployees);
 
+    }
+    //Вторая часть второго упражнения
+    public static void collectMethod(Set<Employees> employeesSet){
 
         List<Object> arrayListEmployees = new ArrayList<>();
-        arrayListEmployees.add(setEmployees);
-        for(Object obj:arrayListEmployees){
-            System.out.println(obj);
-        }
+        arrayListEmployees.add(employeesSet);
+
+        arrayListEmployees.listIterator();
+
     }
 }
