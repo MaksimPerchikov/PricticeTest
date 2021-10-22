@@ -47,17 +47,6 @@ public class Main {
         arrayListEmployees.add(setEmployees);
         for(Object obj:arrayListEmployees){
             System.out.println(obj);
-            int i = 0;
-            int x = 0;
-            int y = 0;
-            System.out.println(i);
-            System.out.println(x);
-            System.out.println(y);
         }
-        ////////
-
-
     }
-
-
 }
