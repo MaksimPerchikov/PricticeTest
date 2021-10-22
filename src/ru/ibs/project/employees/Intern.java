@@ -1,4 +1,4 @@
-package ru.ibs.project.employees;
+package ru.ibs.project.firstHomeWork.employees;
 
 public class Intern extends Employees{
     private String nameIntern;
@@ -9,7 +9,6 @@ public class Intern extends Employees{
         this.nameIntern = nameIntern;
         this.ageIntern = ageIntern;
         this.direction = direction;
-
     }
     Intern(){}
 
