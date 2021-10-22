@@ -27,6 +27,7 @@ public class Main {
         developer1.methodFromAbstractClassEmployees();
         developer1.methodFromAbstractClassEmployeesTwo();
         //вызов метода класса Developer
+        developer1.durationOfLunch();
         System.out.println("==========================");
 
 
@@ -40,14 +41,18 @@ public class Main {
         setEmployees.add(developer);
         setEmployees.add(intern);
         setEmployees.add(teamLeader);
-
-
-
-        List<Object> arrayListEmployees = new ArrayList<>();
-        arrayListEmployees.add(setEmployees);
-        for (int i = 0; i <arrayListEmployees.size() ; i++) {
-            System.out.println(arrayListEmployees.get(i));
+        for(Object obj: setEmployees){
+            System.out.println(obj);
         }
+
+
+        /*List<Object> arrayListEmployees = new ArrayList<>();
+        arrayListEmployees.add(setEmployees);
+        for (int i = 0; i <setEmployees.size(); i++) {
+            System.out.println(i+". "+arrayListEmployees.get(i));
+        }*/
+
+
     }
 
 
