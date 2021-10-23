@@ -64,10 +64,14 @@ public class Test {
             return x2 % 2 == 0;
         }).collect(Collectors.toList());
         System.out.println(integerList);
+
+
         System.out.println();
         System.out.println("=====================");
         func(Methods::first, "Gg");
         func(Methods::second, "not gg");
+
+
         Map<String, Integer> integerListSecond = (Map)Arrays.asList(32, 4, 2, 67, 65, 435, 654456, 345, 3245, 99, 12, 3).stream().sorted((o1, o2) -> {
             return String.valueOf(o1).compareTo(String.valueOf(o2));
         }).collect(Collectors.toMap(String::valueOf, (e) -> {

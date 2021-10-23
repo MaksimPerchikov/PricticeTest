@@ -1,6 +1,12 @@
 package ru.ibs.project.SecondLesson;
+import ru.ibs.project.firstLesson.employees.Developer;
 import ru.ibs.project.firstLesson.employees.Employees;
 import ru.ibs.project.firstLesson.employees.Intern;
+import ru.ibs.project.firstLesson.employees.TeamLeader;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class SecLess {
     public static void main(String[] args) {
@@ -49,6 +55,26 @@ public class SecLess {
         employees.methodFromAbstractClassEmployees();
 
         //Вторая часть задания
+        Developer developerFirst = new Developer("DeveloperFirst",27);
+        Developer developerSecond = new Developer("DeveloperSecond",30);
+        Intern internFirst = new Intern("InternFirst",22);
+        Intern internSecond = new Intern("InternSecond",34);
+        TeamLeader teamLeaderFirst = new TeamLeader("TeamLeaderFirst",40);
+        TeamLeader teamLeaderSecond= new TeamLeader("TeamLeaderSecond",38);
+
+        List<Employees> listEmployees = new ArrayList<>();
+        listEmployees.add(developerFirst);
+        listEmployees.add(developerSecond);
+        listEmployees.add(internFirst);
+        listEmployees.add(internSecond);
+        listEmployees.add(teamLeaderFirst);
+        listEmployees.add(teamLeaderSecond);
+
+        listEmployees.stream()
+                .filter(e -> {
+                    
+                }).collect(Collectors.toList());
+        System.out.println(listEmployees);
 
 
     }
