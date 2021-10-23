@@ -54,8 +54,9 @@ public class SecLess {
         };
         employees.methodFromAbstractClassEmployees();
 
+
         //Вторая часть задания
-        Developer developerFirst = new Developer("DeveloperFirst",27);
+ /*       Developer developerFirst = new Developer("DeveloperFirst",27);
         Developer developerSecond = new Developer("DeveloperSecond",30);
         Intern internFirst = new Intern("InternFirst",22);
         Intern internSecond = new Intern("InternSecond",34);
@@ -71,11 +72,11 @@ public class SecLess {
         listEmployees.add(teamLeaderSecond);
 
         listEmployees.stream()
-                .filter(e -> {
-                    
-                }).collect(Collectors.toList());
+                *//*.filter(e -> {
+
+                })*//*.collect(Collectors.toList());
         System.out.println(listEmployees);
 
-
+*/
     }
 }

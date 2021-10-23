@@ -12,7 +12,7 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        TeamLeader teamLeader1 = new TeamLeader("Tom");
+        TeamLeader teamLeader1 = new TeamLeader("Bob");
         teamLeader1.methodFromAbstractClassEmployees();
         teamLeader1.methodFromInterfaceManager();
         //вызов метода класса TeamLeader
@@ -49,6 +49,16 @@ public class Main {
     public static void collectMethod(Set<Employees> employeesSet){
         List<Object> arrayListEmployees = new ArrayList<>();
         arrayListEmployees.add(employeesSet);
+
+        List<Set<Employees>> list = (List)arrayListEmployees;
+        System.out.println("List size = " + list.size());
+
+        Set<Employees> set = list.get(0);
+        System.out.println("Set size = " + set.size());
+
+
+        /*List<Object> arrayListEmployees = new ArrayList<>();
+        arrayListEmployees.add(employeesSet);*/
 
     }
 }

@@ -1,22 +1,13 @@
 package ru.ibs.project.firstLesson.employees;
 
 public class Developer extends Employees{
-
-    private String nameDeveloper;
     private String directionOfDevelop;
-    private Integer ageDeveloper;
 
-    Developer(String nameDeveloper,Integer ageDeveloper,String directionOfDevelop){
-        this.ageDeveloper = ageDeveloper;
-        this.nameDeveloper=nameDeveloper;
+    Developer(String nameEmplo, Integer ageEmplo,String directionOfDevelop) {
+        super(nameEmplo, ageEmplo);
         this.directionOfDevelop = directionOfDevelop;
     }
-    public Developer(String nameDeveloper,Integer ageDeveloper){
-        this.nameDeveloper = nameDeveloper;
-        this.ageDeveloper = ageDeveloper;
-    }
-    Developer(){}
-    Developer(String directionOfDevelop){
+   Developer(String directionOfDevelop){
         this.directionOfDevelop = directionOfDevelop;
     }
 
@@ -36,13 +27,7 @@ public class Developer extends Employees{
     }
 
 
-    public String getNameDeveloper() {
-        return nameDeveloper;
-    }
 
-    public void setNameDeveloper(String nameDeveloper) {
-        this.nameDeveloper = nameDeveloper;
-    }
 
     public String getDirectionOfDevelop() {
         return directionOfDevelop;
@@ -50,13 +35,5 @@ public class Developer extends Employees{
 
     public void setDirectionOfDevelop(String directionOfDevelop) {
         this.directionOfDevelop = directionOfDevelop;
-    }
-
-    public Integer getAgeDeveloper() {
-        return ageDeveloper;
-    }
-
-    public void setAgeDeveloper(Integer ageDeveloper) {
-        this.ageDeveloper = ageDeveloper;
     }
 }

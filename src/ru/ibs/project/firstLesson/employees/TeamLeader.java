@@ -4,22 +4,14 @@ import ru.ibs.project.firstLesson.employees.info.Manager;
 
 public class TeamLeader extends Employees implements Manager {
     private Integer numberOfSubordinates;
-    private String nameTeamLeader;
-    private Integer ageTeamLeader;
 
-    public TeamLeader(String nameTeamLeader,Integer ageTeamLeader){
-        this.nameTeamLeader = nameTeamLeader;
-        this.ageTeamLeader = ageTeamLeader;
-    }
-
-    TeamLeader(String nameTeamLeader,Integer ageTeamLeader,Integer numberOfSubordinates){
-        this.nameTeamLeader= nameTeamLeader;
-        this.numberOfSubordinates = numberOfSubordinates;
-        this.ageTeamLeader = ageTeamLeader;
-    }
     TeamLeader(){}
-    public TeamLeader(String nameTeamLeader){
-        this.nameTeamLeader = nameTeamLeader;
+    TeamLeader(String name,Integer age,Integer numberOfSubordinates){
+        super(name,age);
+        this.numberOfSubordinates = numberOfSubordinates;
+    }
+    TeamLeader(String name){
+        super(name);
     }
 
     //метод класса TeamLeader
@@ -27,20 +19,11 @@ public class TeamLeader extends Employees implements Manager {
         System.out.println((experience+numberOfCompletedProjects)/2);
         return null;
     }
-
-
-
-
     @Override
     public void methodFromInterfaceManager() {
-        System.out.println("Я-тимлидер " +getNameTeamLeader()+" ,еще я являюсь менеджером");
+        System.out.println("Я-тимлидер " +getNameEmplo()+" ,еще я являюсь менеджером");
     }
-    public Integer getAgeTeamLeader(){
-        return ageTeamLeader;
-    }
-    public void setAgeTeamLeader(Integer ageTeamLeader){
-        this.ageTeamLeader = ageTeamLeader;
-    }
+
 
     @Override
     public void methodFromAbstractClassEmployees() {
@@ -53,15 +36,5 @@ public class TeamLeader extends Employees implements Manager {
 
     public void setNumberOfSubordinates(Integer numberOfSubordinates) {
         this.numberOfSubordinates = numberOfSubordinates;
-    }
-
-
-
-    public String getNameTeamLeader() {
-        return nameTeamLeader;
-    }
-
-    public void setNameTeamLeader(String nameTeamLeader) {
-        this.nameTeamLeader = nameTeamLeader;
     }
 }

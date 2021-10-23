@@ -3,21 +3,13 @@ package ru.ibs.project.firstLesson.employees;
 import ru.ibs.project.firstLesson.employees.Employees;
 
 public class Intern extends Employees {
-    private String nameIntern;
-    private Integer ageIntern;
     private String direction;
 
-    public Intern(String nameIntern,Integer ageIntern){
-        this.nameIntern = nameIntern;
-        this.ageIntern = ageIntern;
-    }
-
-    Intern(String nameIntern,Integer ageIntern,String direction){
-        this.nameIntern = nameIntern;
-        this.ageIntern = ageIntern;
+    Intern(){}
+    Intern(String name,Integer age,String direction){
+        super(name,age);
         this.direction = direction;
     }
-    Intern(){}
 
     @Override
     public void methodFromAbstractClassEmployeesTwo() {
@@ -45,24 +37,6 @@ public class Intern extends Employees {
             System.out.println("нет такого направления!");
         }
 
-    }
-
-
-
-    public String getNameIntern() {
-        return nameIntern;
-    }
-
-    public void setNameIntern(String nameIntern) {
-        this.nameIntern = nameIntern;
-    }
-
-    public Integer getAgeIntern() {
-        return ageIntern;
-    }
-
-    public void setAgeIntern(Integer ageIntern) {
-        this.ageIntern = ageIntern;
     }
 
     public String getDirection() {

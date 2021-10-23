@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122cf4fc-1cd6-44bf-8d8d-1215dedcd05c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/testEmpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/SecondLesson/SecLess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/SecondLesson/SecLess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/firstLesson/employees/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/firstLesson/employees/Developer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/firstLesson/employees/Employees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/firstLesson/employees/Employees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/firstLesson/employees/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/firstLesson/employees/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Employees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/TeamLeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/TeamLeader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,7 +51,7 @@
       <recent name="M:\projects\PricticeTest\src\ru\ibs\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecLess">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ibs.project.test.App" />
       <module name="PricticeTest" />
@@ -98,8 +106,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SecLess" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.SecLess" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
