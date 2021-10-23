@@ -1,6 +1,6 @@
-package ru.ibs.project.employees;
+package ru.ibs.project.firstLesson.employees;
 
-import ru.ibs.project.info.Manager;
+import ru.ibs.project.firstLesson.employees.info.Manager;
 
 public class TeamLeader extends Employees implements Manager {
     private Integer numberOfSubordinates;
@@ -13,7 +13,7 @@ public class TeamLeader extends Employees implements Manager {
         this.ageTeamLeader = ageTeamLeader;
     }
     TeamLeader(){}
-    TeamLeader(String nameTeamLeader){
+    public TeamLeader(String nameTeamLeader){
         this.nameTeamLeader = nameTeamLeader;
     }
 

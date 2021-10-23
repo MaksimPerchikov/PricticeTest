@@ -1,4 +1,9 @@
-package ru.ibs.project.firstHomeWork.employees;
+package ru.ibs.project.firstLesson.employees;
+
+import ru.ibs.project.firstLesson.employees.Developer;
+import ru.ibs.project.firstLesson.employees.Employees;
+import ru.ibs.project.firstLesson.employees.TeamLeader;
+import ru.ibs.project.firstLesson.employees.Intern;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,6 +1,8 @@
-package ru.ibs.project.firstHomeWork.employees;
+package ru.ibs.project.firstLesson.employees;
 
-public class Intern extends Employees{
+import ru.ibs.project.firstLesson.employees.Employees;
+
+public class Intern extends Employees {
     private String nameIntern;
     private Integer ageIntern;
     private String direction;

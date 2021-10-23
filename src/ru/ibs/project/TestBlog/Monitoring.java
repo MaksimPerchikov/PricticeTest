@@ -1,2 +1,5 @@
-package ru.ibs.project.TestBlog;public interface Monitoring {
+package ru.ibs.project.TestBlog;
+
+public interface Monitoring {
+    void monitoringTheSystem();
 }

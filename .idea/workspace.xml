@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122cf4fc-1cd6-44bf-8d8d-1215dedcd05c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/employees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/employees/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/employees/TeamLeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/employees/TeamLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/FuncInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Monitoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/MyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/MyNumberPara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/employees/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/employees/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/employees/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/employees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/employees/TeamLeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/TeamLeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/info/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/firstLesson/employees/info/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,11 +46,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ru/ibs/project" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\projects\PricticeTest\src\ru\ibs\project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SecLess">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ibs.project.test.App" />
       <module name="PricticeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.project.firstLesson.employees.Main" />
+      <module name="PricticeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ibs.project.firstLesson.employees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -48,7 +79,20 @@
       <module name="PricticeTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ibs.project.info.*" />
+          <option name="PATTERN" value="ru.ibs.project.firstLesson.employees.info.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecLess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.project.SecondLesson.SecLess" />
+      <module name="PricticeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ibs.project.SecondLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,9 +103,13 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.SecLess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecLess" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -101,5 +149,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyPricticeTest$App.ic" NAME="App Coverage Results" MODIFIED="1634823302682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MyPricticeTest$Main.ic" NAME="Main Coverage Results" MODIFIED="1634920742757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.ibs.project.info.*</FILTER>
+    </SUITE>
   </component>
 </project>

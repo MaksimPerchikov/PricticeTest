@@ -1,2 +1,6 @@
-package ru.ibs.project.TestBlog;public class FuncInt {
+
+package ru.ibs.project.TestBlog;
+
+public interface FuncInt {
+    void doSmth(String var1);
 }

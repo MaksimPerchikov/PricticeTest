@@ -1,4 +1,4 @@
-package ru.ibs.project.employees;
+package ru.ibs.project.firstLesson.employees;
 
 public class Developer extends Employees{
 
