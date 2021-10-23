@@ -11,6 +11,10 @@ public class Developer extends Employees{
         this.nameDeveloper=nameDeveloper;
         this.directionOfDevelop = directionOfDevelop;
     }
+    Developer(String nameDeveloper,Integer ageDeveloper){
+        this.nameDeveloper = nameDeveloper;
+        this.ageDeveloper = ageDeveloper;
+    }
     Developer(){}
     Developer(String directionOfDevelop){
         this.directionOfDevelop = directionOfDevelop;

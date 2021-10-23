@@ -1,26 +1,21 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package ru.ibs.project.SecondLesson;
-
 import ru.ibs.project.firstLesson.employees.Employees;
+import ru.ibs.project.firstLesson.employees.Intern;
 
 public class SecLess {
-    public SecLess() {
-    }
-
     public static void main(String[] args) {
         Employees employees = new Employees() {
             private String post;
             private Integer workHours;
 
             public void methodFromAbstractClassEmployees() {
-                this.setPost("Back");
-                this.salary(this.getPost());
-                this.setPost("Front");
-                this.salary(this.getPost());
+                setPost("Back");
+                salary(getPost());
+                setPost("Front");
+                salary(getPost());
+
+                setWorkHours(8);
+                numberOfWorkingHours(getWorkHours());
             }
 
             private void salary(String post) {
@@ -29,11 +24,10 @@ public class SecLess {
                 } else {
                     System.out.println("Error");
                 }
-
             }
 
-            private void numberOfWorkingHours() {
-                System.out.println("N-е количество для каждого сотрудника");
+            private void numberOfWorkingHours(Integer hours) {
+                System.out.println(hours+" часов для каждого сотрудника");
             }
 
             public String getPost() {
@@ -53,5 +47,9 @@ public class SecLess {
             }
         };
         employees.methodFromAbstractClassEmployees();
+
+        //Вторая часть задания
+
+
     }
 }

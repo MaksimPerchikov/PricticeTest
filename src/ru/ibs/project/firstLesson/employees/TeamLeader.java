@@ -7,6 +7,11 @@ public class TeamLeader extends Employees implements Manager {
     private String nameTeamLeader;
     private Integer ageTeamLeader;
 
+    TeamLeader(String nameTeamLeader,Integer ageTeamLeader){
+        this.nameTeamLeader = nameTeamLeader;
+        this.ageTeamLeader = ageTeamLeader;
+    }
+
     TeamLeader(String nameTeamLeader,Integer ageTeamLeader,Integer numberOfSubordinates){
         this.nameTeamLeader= nameTeamLeader;
         this.numberOfSubordinates = numberOfSubordinates;

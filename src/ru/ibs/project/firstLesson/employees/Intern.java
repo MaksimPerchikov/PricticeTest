@@ -7,6 +7,11 @@ public class Intern extends Employees {
     private Integer ageIntern;
     private String direction;
 
+    Intern(String nameIntern,Integer ageIntern){
+        this.nameIntern = nameIntern;
+        this.ageIntern = ageIntern;
+    }
+
     Intern(String nameIntern,Integer ageIntern,String direction){
         this.nameIntern = nameIntern;
         this.ageIntern = ageIntern;
