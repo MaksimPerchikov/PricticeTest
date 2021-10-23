@@ -10,6 +10,9 @@ public class Intern extends Employees {
         super(name,age);
         this.direction = direction;
     }
+    public Intern(String name,Integer age){
+        super(name,age);
+    }
 
     @Override
     public void methodFromAbstractClassEmployeesTwo() {

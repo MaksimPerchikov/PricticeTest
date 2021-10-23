@@ -7,8 +7,11 @@ public class Developer extends Employees{
         super(nameEmplo, ageEmplo);
         this.directionOfDevelop = directionOfDevelop;
     }
-   Developer(String directionOfDevelop){
+   public Developer(String directionOfDevelop){
         this.directionOfDevelop = directionOfDevelop;
+    }
+    public Developer(String name,Integer age){
+        super(name,age);
     }
 
     //метод класса Developer
@@ -25,9 +28,6 @@ public class Developer extends Employees{
     public void methodFromAbstractClassEmployeesTwo() {
         System.out.println("Я "+directionOfDevelop +" разработчик");
     }
-
-
-
 
     public String getDirectionOfDevelop() {
         return directionOfDevelop;

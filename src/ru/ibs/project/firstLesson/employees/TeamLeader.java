@@ -13,6 +13,9 @@ public class TeamLeader extends Employees implements Manager {
     TeamLeader(String name){
         super(name);
     }
+    public TeamLeader(String name, Integer age){
+        super(name,age);
+    }
 
     //метод класса TeamLeader
     public Integer levelOfProfessionalism(Integer experience,Integer numberOfCompletedProjects){

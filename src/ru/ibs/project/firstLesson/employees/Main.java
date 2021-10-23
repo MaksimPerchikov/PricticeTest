@@ -24,6 +24,7 @@ public class Main {
         intern1.methodFromAbstractClassEmployees();
         //вызов метода класса Intern
         intern1.learningLines("Backand");
+        intern1.learningLines("Frontend");
         System.out.println("==========================");
 
         Developer developer1 = new Developer("Backend");

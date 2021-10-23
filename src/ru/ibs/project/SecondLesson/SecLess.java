@@ -31,7 +31,6 @@ public class SecLess {
                     System.out.println("Error");
                 }
             }
-
             private void numberOfWorkingHours(Integer hours) {
                 System.out.println(hours+" часов для каждого сотрудника");
             }
@@ -56,7 +55,7 @@ public class SecLess {
 
 
         //Вторая часть задания
- /*       Developer developerFirst = new Developer("DeveloperFirst",27);
+        Developer developerFirst = new Developer("DeveloperFirst",27);
         Developer developerSecond = new Developer("DeveloperSecond",30);
         Intern internFirst = new Intern("InternFirst",22);
         Intern internSecond = new Intern("InternSecond",34);
@@ -72,11 +71,13 @@ public class SecLess {
         listEmployees.add(teamLeaderSecond);
 
         listEmployees.stream()
-                *//*.filter(e -> {
+                .filter(e -> {
 
-                })*//*.collect(Collectors.toList());
+                    return false;
+                }).collect(Collectors.toList());
         System.out.println(listEmployees);
 
-*/
+
     }
+
 }
