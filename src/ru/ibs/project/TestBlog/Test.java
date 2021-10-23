@@ -59,7 +59,10 @@ public class Test {
         });
         System.out.println();
         System.out.println("=====================");
-        List<Integer> integerList = (List)Arrays.asList(12, 3, 2, 5, 6, 3, 5, 32, 54, 6, 2, 2).stream().filter((e) -> {
+        List<Integer> integerList = (List)Arrays.asList(12, 3, 2, 5, 6, 3, 5, 32, 54, 6, 2, 2)
+
+                .stream()
+                .filter((e) -> {
             Integer x2 = e * 2;
             return x2 % 2 == 0;
         }).collect(Collectors.toList());
