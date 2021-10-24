@@ -13,7 +13,9 @@ public class Developer extends Employees{
     public Developer(String name,Integer age){
         super(name,age);
     }
-
+    public Developer(String name,String post){
+        super(name,post);
+    }
     //метод класса Developer
     public void durationOfLunch(){
         System.out.println("Длительность обеда у всех одинакова,1 час.");

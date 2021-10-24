@@ -13,6 +13,9 @@ public class Intern extends Employees {
     public Intern(String name,Integer age){
         super(name,age);
     }
+    public Intern(String name,String post){
+        super(name,post);
+    }
 
     @Override
     public void methodFromAbstractClassEmployeesTwo() {

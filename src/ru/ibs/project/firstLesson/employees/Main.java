@@ -48,15 +48,10 @@ public class Main {
     }
     //Вторая часть второго упражнения
     public static void collectMethod(Set<Employees> employeesSet){
-        List<Object> arrayListEmployees = new ArrayList<>();
-        arrayListEmployees.addAll(employeesSet);
+        List<Employees> arrayListEmployees = new ArrayList<>(employeesSet);
+        /*arrayListEmployees.addAll(employeesSet);*/
         System.out.println(arrayListEmployees);
 
-        /*List<Set<Employees>> list = (List)arrayListEmployees;
-        System.out.println("List size = " + list.size());
-
-        Set<Employees> set = list.get(0);
-        System.out.println("Set size = " + set.size());*/
 
     }
 }

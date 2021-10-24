@@ -31,8 +31,9 @@ public class SecLess {
                     System.out.println("Error");
                 }
             }
+
             private void numberOfWorkingHours(Integer hours) {
-                System.out.println(hours+" часов для каждого сотрудника");
+                System.out.println(hours + " часов для каждого сотрудника");
             }
 
             public String getPost() {
@@ -55,12 +56,12 @@ public class SecLess {
 
 
         //Вторая часть задания
-        Developer developerFirst = new Developer("DeveloperFirst",27);
-        Developer developerSecond = new Developer("DeveloperSecond",30);
-        Intern internFirst = new Intern("InternFirst",22);
-        Intern internSecond = new Intern("InternSecond",34);
-        TeamLeader teamLeaderFirst = new TeamLeader("TeamLeaderFirst",40);
-        TeamLeader teamLeaderSecond= new TeamLeader("TeamLeaderSecond",38);
+        Developer developerFirst = new Developer("DeveloperFirstName", "Developer");
+        Developer developerSecond = new Developer("DeveloperSecondName", "Developer");
+        Intern internFirst = new Intern("InternFirstName", "Intern");
+        Intern internSecond = new Intern("InternSecondName", "Intern");
+        TeamLeader teamLeaderFirst = new TeamLeader("TeamLeaderFirstName", "TeamLeader");
+        TeamLeader teamLeaderSecond = new TeamLeader("TeamLeaderSecondName", "TeamLeader");
 
         List<Employees> listEmployees = new ArrayList<>();
         listEmployees.add(developerFirst);
@@ -70,14 +71,22 @@ public class SecLess {
         listEmployees.add(teamLeaderFirst);
         listEmployees.add(teamLeaderSecond);
 
-        listEmployees.stream()
-                .filter(e -> {
-
-                    return false;
-                }).collect(Collectors.toList());
-        System.out.println(listEmployees);
-
-
+        //собираю новый список
+        List<Employees> listDeveloper = filterByPost(listEmployees);
+        printList(listDeveloper);
     }
-
+    //фильтрация по одному полю.
+    public static List<Employees> filterByPost(List<Employees> employeesList){
+        return employeesList.stream()
+                .filter(post -> post.getPost().equals("Intern"))
+                .collect(Collectors.toList());
+    }
+    //просто вывод списка
+    public static void printList(List<Employees> employeesList){
+        System.out.println(employeesList);
+    }
 }
+
+
+
+
