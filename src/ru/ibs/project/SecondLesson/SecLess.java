@@ -6,10 +6,12 @@ import ru.ibs.project.firstLesson.employees.TeamLeader;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class SecLess {
     public static void main(String[] args) {
+
         Employees employees = new Employees() {
             private String post;
             private Integer workHours;
@@ -23,7 +25,6 @@ public class SecLess {
                 setWorkHours(8);
                 numberOfWorkingHours(getWorkHours());
             }
-
             private void salary(String post) {
                 if ("Back".equals(post)) {
                     System.out.println("какая-то зарплата");
@@ -31,7 +32,6 @@ public class SecLess {
                     System.out.println("Error");
                 }
             }
-
             private void numberOfWorkingHours(Integer hours) {
                 System.out.println(hours + " часов для каждого сотрудника");
             }
@@ -54,7 +54,6 @@ public class SecLess {
         };
         employees.methodFromAbstractClassEmployees();
 
-
         //Вторая часть задания
         Developer developerFirst = new Developer("DeveloperFirstName", "Developer");
         Developer developerSecond = new Developer("DeveloperSecondName", "Developer");
@@ -63,6 +62,7 @@ public class SecLess {
         TeamLeader teamLeaderFirst = new TeamLeader("TeamLeaderFirstName", "TeamLeader");
         TeamLeader teamLeaderSecond = new TeamLeader("TeamLeaderSecondName", "TeamLeader");
 
+        //Для второй части под буквой а.
         List<Employees> listEmployees = new ArrayList<>();
         listEmployees.add(developerFirst);
         listEmployees.add(developerSecond);
@@ -71,20 +71,51 @@ public class SecLess {
         listEmployees.add(teamLeaderFirst);
         listEmployees.add(teamLeaderSecond);
 
-        //собираю новый список
-        List<Employees> listDeveloper = filterByPost(listEmployees);
-        printList(listDeveloper);
+
+        //фильтрация при помощи equals
+       // List<Employees> listIntern = filterByPost(listEmployees);
+       // printList(listIntern);
+
+        //фильтрация при помощи INSTANCEOF
+        List<Employees> listIntern = filterByPostInstanceof(listEmployees);
+        printList(listIntern);
+
+
+
+        //Задание под буквой С
+        System.out.println("=====================");
+
+        Map<String,List<Employees>> stringListMap = listEmployees
+                .stream()
+                .map(e -> )
+
+        System.out.println("=====================");
+
+
+
+
     }
-    //фильтрация по одному полю.
+    //фильтрация по одному полю.Для второй части под буквой b.
     public static List<Employees> filterByPost(List<Employees> employeesList){
         return employeesList.stream()
                 .filter(post -> post.getPost().equals("Intern"))
                 .collect(Collectors.toList());
     }
-    //просто вывод списка
+    //Для второй части под буквой b.Фильтрация с помощью INSTANCEOF.
+    public static List<Employees> filterByPostInstanceof(List<Employees> employeesList){
+        return employeesList
+                .stream()
+                .filter(e -> e instanceof TeamLeader)
+                .collect(Collectors.toList());
+    }
+    //вывод списка.Для второй части под буквой b.
     public static void printList(List<Employees> employeesList){
         System.out.println(employeesList);
     }
+
+
+
+
 }
 
 

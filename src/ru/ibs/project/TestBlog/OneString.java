@@ -1,2 +1,6 @@
-package ru.ibs.project.TestBlog;public interface OneNumber {
+package ru.ibs.project.TestBlog;
+
+@FunctionalInterface
+public interface OneString {
+    String showSStr();
 }

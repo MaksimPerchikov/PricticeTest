@@ -4,7 +4,6 @@ package ru.ibs.project.TestBlog;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Test {
@@ -24,40 +23,35 @@ public class Test {
         };
         security.monitoringTheSystem();
         monitoring.monitoringTheSystem();
-        MyNumber myNumber = () -> {
-            return 12.3D;
-        };
-        System.out.println(myNumber.getValue());
-        myNumber = () -> {
-            return 5.0D;
-        };
-        System.out.println(myNumber.getValue());
-        myNumber = () -> {
-            int counter = 1;
-
-            int sum;
-            for(sum = 0; counter < 5; ++counter) {
-                sum += counter;
+        Monitoring security2 = new Monitoring() {
+            @Override
+            public void monitoringTheSystem() {
+                System.out.println("Security2");
             }
 
-            return (double)sum;
         };
-        System.out.println(myNumber.getValue());
-        MyNumberPara myNumberPara = (n, m) -> {
-            return (double)(n + m);
-        };
-        System.out.println(myNumberPara.getValue(2, 3));
-        myNumberPara = (n, m) -> {
-            return n > 10 ? (double)m : (double)(m + 1);
-        };
-        System.out.println(myNumberPara.getValue(3, 9));
-        Arrays.asList(1, 2, 4, 2, 4, 5, 6, 3, 2, 1, 2, 1).stream().forEach((element) -> {
-            if (element % 2 == 0) {
-                System.out.print(element + ",");
-            }
+        security2.monitoringTheSystem();
 
-        });
-        System.out.println();
+        MyNumbers myNumber;
+
+        myNumber = (n,m) ->{
+            int sum = n+m;
+            if(sum >10){
+                return sum;
+            }
+            else
+            return m;
+        };
+        System.out.println(myNumber.mathematicsOperation(1,6));
+
+        OneString oneString;
+
+        /*List<Integer> integerList = Arrays.asList(2,4,6,3,87,98)
+                .stream()
+                .filter(f -> f%2 == 0).collect(Collectors.toList());
+        System.out.println(integerList);*/
+
+       /* System.out.println();
         System.out.println("=====================");
         List<Integer> integerList = (List)Arrays.asList(12, 3, 2, 5, 6, 3, 5, 32, 54, 6, 2, 2)
 
@@ -80,7 +74,45 @@ public class Test {
         }).collect(Collectors.toMap(String::valueOf, (e) -> {
             return e;
         }));
-        System.out.println(integerListSecond);
+        System.out.println(integerListSecond);*/
+        List<Integer> integerList = Arrays.asList(1,2,3,4,5,6)
+        .stream()
+                .filter(element ->element %2 == 0)
+                .collect(Collectors.toList());
+        System.out.println(integerList);
+        System.out.println("=====================");
+
+        List<String> stringList = Arrays.asList("a","b","c")
+                .stream()
+                .filter(element -> {
+                    return element.equals("b");
+                })
+                .collect(Collectors.toList());
+        System.out.println(stringList);
+        System.out.println("=====================");
+
+
+        /*Methods.TestInternal
+
+
+        Methods methods = new Methods();
+        Methods.TestInternal testInternal = methods.new TestInternal();
+        testInternal.name("Max");*/
+
+        List<Pair> integerListNewExample = Arrays.asList(2,3,4,2,3,6,54,4)
+                .stream()
+                .filter(element -> element%2 == 0)
+                .map(element -> new Pair<String,Integer>(String.valueOf(element),element))
+                .collect(Collectors.toList());
+        System.out.println(integerListNewExample);
+
+
+    }
+
+    public static List<Integer> methodForListIn(List<Integer> integerList){
+        return integerList.stream()
+                .filter(elements -> elements.equals(3))
+                .collect(Collectors.toList());
     }
 
     private static void func(FuncInt funcInt, String txt) {
