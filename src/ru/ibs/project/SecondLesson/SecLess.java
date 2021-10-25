@@ -4,9 +4,7 @@ import ru.ibs.project.firstLesson.employees.Employees;
 import ru.ibs.project.firstLesson.employees.Intern;
 import ru.ibs.project.firstLesson.employees.TeamLeader;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class SecLess {
@@ -82,12 +80,20 @@ public class SecLess {
 
 
 
-        //Задание под буквой С
+        //Задание под буквой С ,но, пока что, без map.
         System.out.println("=====================");
 
-        Map<String,List<Employees>> stringListMap = listEmployees
+      /*  Map<String,List<Employees>> stringListMap = listEmployees
                 .stream()
-                .map(e -> )
+                .filter(element -> element instanceof TeamLeader || element instanceof Developer)
+                .collect(Collectors.groupingBy(ele -> ele instanceof TeamLeader?"Тимы":"Разработчикки"));
+        System.out.println(stringListMap);
+*/
+
+       /* Map<String,List<Employees>> stringListMap1 = listEmployees
+                .stream()
+                        .filter(element -> element instanceof Intern)
+                                .map()*/
 
         System.out.println("=====================");
 

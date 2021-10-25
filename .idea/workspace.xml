@@ -6,21 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="122cf4fc-1cd6-44bf-8d8d-1215dedcd05c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/SecondLesson/SecLess$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/SecondLesson/SecLess$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/SecondLesson/SecLess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/SecondLesson/SecLess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/Methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/Methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/MyNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/MyNumberPara.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/Test$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/Test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/Test$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/TestBlog/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/MyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/MyNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/OneString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/OneString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/PairNumberFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/PairNumberFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/TestBlog/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
