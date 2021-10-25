@@ -80,7 +80,7 @@ public class SecLess {
 
 
 
-        //Задание под буквой С ,но, пока что, без map.
+        //Задание под буквой С
         System.out.println("=====================");
         streamByNameEmplo(listEmployees);
         System.out.println("=====================");
