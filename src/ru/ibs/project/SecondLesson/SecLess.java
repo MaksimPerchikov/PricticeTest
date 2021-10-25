@@ -82,25 +82,18 @@ public class SecLess {
 
         //Задание под буквой С ,но, пока что, без map.
         System.out.println("=====================");
-
-      /*  Map<String,List<Employees>> stringListMap = listEmployees
-                .stream()
-                .filter(element -> element instanceof TeamLeader || element instanceof Developer)
-                .collect(Collectors.groupingBy(ele -> ele instanceof TeamLeader?"Тимы":"Разработчикки"));
-        System.out.println(stringListMap);
-*/
-
-       /* Map<String,List<Employees>> stringListMap1 = listEmployees
-                .stream()
-                        .filter(element -> element instanceof Intern)
-                                .map()*/
-
+        streamByNameEmplo(listEmployees);
         System.out.println("=====================");
 
-
-
-
     }
+    //Использование map,преобразование потока сотрудников в поток значений поля Имя.
+    public static void streamByNameEmplo(List<Employees> employeesList){
+       employeesList.stream()
+               .map(elem -> elem.getNameEmplo())
+               .forEach(System.out::println);
+    }
+
+
     //фильтрация по одному полю.Для второй части под буквой b.
     public static List<Employees> filterByPost(List<Employees> employeesList){
         return employeesList.stream()

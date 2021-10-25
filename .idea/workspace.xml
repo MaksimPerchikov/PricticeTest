@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122cf4fc-1cd6-44bf-8d8d-1215dedcd05c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/TestClassSecLess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/SecondLesson/SecLess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PricticeTest/ru/ibs/project/SecondLesson/SecLess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" afterDir="false" />
@@ -43,7 +44,7 @@
       <recent name="M:\projects\PricticeTest\src\ru\ibs\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecLess">
+  <component name="RunManager" selected="Application.TestClassSecLess">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ibs.project.test.App" />
       <module name="PricticeTest" />
@@ -103,15 +104,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClassSecLess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.project.SecondLesson.TestClassSecLess" />
+      <module name="PricticeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ibs.project.SecondLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.SecLess" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestClassSecLess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClassSecLess" />
         <item itemvalue="Application.SecLess" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
