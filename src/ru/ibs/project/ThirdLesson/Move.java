@@ -1,2 +1,5 @@
-package ru.ibs.project.ThirdLesson;public interface Moov {
+package ru.ibs.project.ThirdLesson;
+
+public interface Move {
+    String allUsers();
 }

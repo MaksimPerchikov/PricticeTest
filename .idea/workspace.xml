@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122cf4fc-1cd6-44bf-8d8d-1215dedcd05c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/ibs/project/SecondLesson/SecLess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/Adapter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/Adapter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/Factory1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/Factory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/ProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/ProductA1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/ProductA2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/ProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/ProductB1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/factory/ProductB2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/template/AbstractTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/ibs/project/ThirdLesson/template/TemplateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +60,7 @@
       <recent name="M:\projects\PricticeTest\src\ru\ibs\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClassSecLess">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ibs.project.test.App" />
       <module name="PricticeTest" />
@@ -62,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ibs.project.employees.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ibs.project.ThirdLesson.Main" />
       <module name="PricticeTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ibs.project.firstLesson.employees.info.*" />
+          <option name="PATTERN" value="ru.ibs.project.ThirdLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,19 +135,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.SecLess" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestClassSecLess" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.TestClassSecLess" />
         <item itemvalue="Application.SecLess" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +180,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

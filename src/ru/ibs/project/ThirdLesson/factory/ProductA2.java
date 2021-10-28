@@ -1,2 +1,5 @@
-package ru.ibs.project.ThirdLesson.factory;public class ProductA2 {
+package ru.ibs.project.ThirdLesson.factory;
+
+public class ProductA2 implements ProductA{
+
 }
